@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+ 
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="banner">
+
+    <img class="image" src="./images/pattern-bg.png" alt="">
+      <div class="container">
+
+        <h2>IP Address Tracker</h2>
+        
+        <div class="search-bar">
+          
+          <form class="form">
+            <input class="input" id="search" placeholder="Search for any IP address or domain" type="text">
+            <div class="button">
+              <p class="btn"><img src="./images/icon-arrow.svg" alt=""></p>
+
+            </div>
+           
+          </form>
+          <div class="results">
+            <div class="box">
+              <h5> IP Address</h5>
+              <span id="ip-address">8.8.8.8</span>
+            </div>
+            <div class="divider"></div>
+            <div class="box">
+              <h5>Location</h5>
+              <span id="location">Mira Bhayander,</span>
+              <span id="pincode">401105</span>
+              
+            </div>
+            <div class="divider"></div>
+            <div class="box">
+              <h5> Timezone</h5>
+              <span id="timezone">UTC-5:00</span>
+            </div>
+            <div class="divider"></div>
+            <div class="box">
+              <h5> ISP</h5>
+              <p><span id="isp">Tata play Fiber</span></p>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    
+
+  </section>
+
+  <div id="map">
+    hellow
+  </div>
+
+  
+ 
+  <script type="text/javascript" src="app.js"></script>
+
+
+
+</body>
+</html>

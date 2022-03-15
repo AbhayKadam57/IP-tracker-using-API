@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+
+    box-sizing: border-radius ;
+    margin: 0;
+    padding: 0;
+}
+
+
+#map{
+
+
+  
+    height: 800px;
+    position: relative;
+    z-index: 1;
+    top: -10px;
+
+}
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.6;
+}
+
+img{
+
+    width: 100%; 
+
+}
+
+h2{
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.image{
+
+    height: 250px;
+    position: relative;
+}
+
+
+
+.container{
+
+    max-width: 1100px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    text-align: center;
+    z-index: 2;
+}
+
+h2{
+
+    color: white;
+    font-size: 30px;
+
+}
+
+.input{
+    font-family: 'Rubik', sans-serif;
+    padding: 10px 10px;
+    width: 400px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size:18px ;
+    margin-bottom: 40px;
+
+}
+
+.btn{
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+   
+}
+
+.button{
+
+    background-color: black;
+    border: none;
+    padding: 8px;
+    position: absolute;
+    top: 0;
+    right:0;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    cursor: pointer;
+    float: right;
+    z-index: 2;
+    
+}
+
+.form{
+
+    position: relative;
+    display: flex;
+    place-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.results{
+
+    max-width: 1000px;
+    background-color: white;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    place-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    
+    
+}
+
+.divider{
+
+    width: 1px;
+    height: 80px;
+    background-color: #ccc;
+}
+
+.box{
+
+    min-height: 100px;
+    /* text-align: start; */
+    display: grid;
+    place-items: center;
+    width: 250px;
+    gap: -60px;
+    justify-self: start;
+   
+}
+
+h5{
+
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.377);
+}
+
+span{
+
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+
+@media (max-width: 768px){
+
+
+    .results{
+
+        display: grid;
+        max-width: 250px;
+        margin: 0 auto;
+
+    }
+
+    .divider{
+
+        display: none;
+    }
+    .box{
+
+        min-height: 20px;
+    }
+}
